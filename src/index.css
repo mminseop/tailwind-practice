@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +11,8 @@
 
 body {
   background-color: #121212;
+}
+
+.list-item {
+    @apply list-none text-[13px] font-normal
 }
